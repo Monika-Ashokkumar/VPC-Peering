@@ -1,0 +1,25 @@
+# Ignore private keys
+*.pem
+
+# Local .terraform directories
+.terraform/
+
+# Ignore Terraform .tfstate files, which might contain sensitive data
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Ignore all .tfvars files, which might contain secret data
+*.tfvars
+
+# Ignore override files as they can contain sensitive details
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
