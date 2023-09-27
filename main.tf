@@ -124,6 +124,6 @@ resource "aws_instance" "east_instance" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "KS-Perring-East"
+    Name = "KS-Perring-East1"
   }
 }
